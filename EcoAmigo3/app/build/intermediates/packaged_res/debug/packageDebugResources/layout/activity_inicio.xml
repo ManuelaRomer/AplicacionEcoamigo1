@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4FDE7"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/LogoEcoamigo"
+        android:layout_width="413dp"
+        android:layout_height="82dp"
+        android:background="#00CC8B"
+        android:fontFamily="sans-serif-black"
+        android:padding="12dp"
+        android:text="Ecoamigo Sevilla"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStarOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/Fondo1"
+        android:layout_width="387dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="28dp"
+        android:background="#00CC8B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStarOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoEcoamigo" />
+
+    <TextView
+        android:id="@+id/Contexto"
+        android:layout_width="387dp"
+        android:layout_height="310dp"
+        android:background="#00CC8B"
+        android:fontFamily="sans-serif-black"
+        android:padding="17dp"
+        android:text="Sevilla Valle es un pueblo hermoso, y nuestro deber es mantenerlo reluciente tanto para los habitantes como para los turistas, encotrar coniencia de como debemos cuidarlo..."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fondo1"
+        app:layout_constraintVertical_bias="0.532" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
